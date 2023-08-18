@@ -25,6 +25,9 @@ break;
 case 'ZoneL':
 Classes.push('ZoneL')
 break;
+case 'region':
+Classes.push('region')
+break;
 default:
 break;
 }

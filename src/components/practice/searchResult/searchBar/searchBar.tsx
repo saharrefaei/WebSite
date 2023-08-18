@@ -10,7 +10,7 @@ export default function searchBar() {
         <img src={questionIcon}/>
       </div>
       <div>
-      <input type="text" value="Search fro assests by name-you'll redirected to the diagram view" /> 
+      <input type="text" placeholder="Search fro assests by name-you'll redirected to the diagram view" /> 
       </div>
       </div>
 

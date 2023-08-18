@@ -1,0 +1,14 @@
+.content p{
+    font-family: TTNormsProBold, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
+}
+.result{
+    
+display: grid;
+grid-auto-flow: column;
+grid-template-rows: repeat(2,80px);
+grid-gap: 7px;
+border-radius: 8px;
+
+}

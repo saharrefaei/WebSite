@@ -1,0 +1,32 @@
+.containerInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: -1%;
+}
+
+.containerInput input { 
+      display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 219, 219);
+    height: 30px;
+    padding-left: 30px;
+    color: gray;
+    width:241%;
+    margin-left: 10px;
+    background: url(../../../../assets/images/search.png) no-repeat;
+    background-size: 20px;
+    background-position: 3px 4px;
+}
+.searchResult{
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.searchResult span{
+background-color:#F5F6F7;
+border-radius: 10px;
+width: fit-content;
+padding: 2px 4px ;
+
+}

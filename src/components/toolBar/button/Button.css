@@ -82,3 +82,9 @@ height: 20px;
 .ZoneL:hover{
     border:1px solid #990035;
 }
+.region{
+    padding: 2px 4px;
+    font-family: TTNormsProMedium,Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}

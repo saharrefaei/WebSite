@@ -8,8 +8,9 @@
 .mainstl{
 display: grid;
 grid-auto-flow: column;
-grid-template-columns:6fr 6fr 6fr 6fr;
-grid-gap: 20px;
+
+grid-template-rows: repeat(2,160px);
+grid-gap: 7px;
 border-radius: 8px;
 }
 .zons{
