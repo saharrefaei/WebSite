@@ -1,0 +1,9 @@
+.Images{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap : nowrap ;
+width: 100%;
+}
+.Images img{
+    width: 5%;
+}

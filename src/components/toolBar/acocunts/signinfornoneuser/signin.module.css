@@ -1,0 +1,17 @@
+.Forgetpassword {
+  color: var(--orange);
+  font-size: x-small;
+}
+.Backarrow {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+.Backarrow img {
+  width: 6%;
+  height: 48%;
+}
+.Backarrow p {
+  margin-right: 2px;
+  color: var(--shady-green);
+}

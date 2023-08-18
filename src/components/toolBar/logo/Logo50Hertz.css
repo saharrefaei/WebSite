@@ -1,0 +1,12 @@
+.LogoeliaGroup {
+    width: 150%;
+    padding-top: 8px;
+}
+.LogoeliaGroup img {
+    width: 100%;
+}
+@media only screen and (min-width: 1300px) {
+    .LogoeliaGroup img {
+        width: 75%;
+    }
+}

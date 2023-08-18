@@ -1,0 +1,11 @@
+.main{
+    margin-left: 4%;
+    margin-right: 4%;
+
+    padding-top:2%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns:2fr 2fr;
+    border-bottom: 2px solid rgb(219, 214, 214);
+align-items: center;
+}

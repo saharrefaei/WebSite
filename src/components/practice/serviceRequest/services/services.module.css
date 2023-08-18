@@ -1,0 +1,107 @@
+.mainCountainer {
+    background-color: #E1E4E6;
+    border-radius: 8px;
+
+}
+
+.Countainer {
+    padding-left: 10px;
+}
+
+.firstInformation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nameInformation {
+    font-family: TTNormsProBold, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.nameInformation img {
+   padding-bottom: 2%;
+}
+
+.statusInformation {
+    font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+    background-color: #FFF7DF;
+    color: #D29F00;
+    padding-left: 2%;
+    padding-right: 4%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.lastfirstInformation {
+    display: flex;
+    align-items: center;
+}
+
+.ChangeInformation {
+    font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;    
+    border-radius: 10px;
+    background-color: #F9E3E3;
+    color: #CC1D1D;
+    width: fit-content;
+    width: 70%;
+    height: 19px;
+}
+.ChangeInformation  img{
+padding-right: 10px;
+padding-left: 5px;
+}
+.BtnInformation {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.BtnInformation img {
+    margin-left: 20px;
+    width: 60px;
+    height: 20px;
+}
+
+.regionInformation {
+    font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: black;
+    width: 33%;
+    height: 22px;
+}
+
+.regionInformation img {
+    width: 16px;
+    height: 16px;
+}
+
+.regionInformation p {
+    font-size: x-small;
+}
+
+.balanceInformation img {
+
+}
+
+.balanceInformation {
+    display: flex;
+    align-items: center; margin-left: 5px;  
+}
+
+.balanceInformation p {
+    font-size: x-small;
+    padding-bottom: 2px;
+    color: gray;
+}

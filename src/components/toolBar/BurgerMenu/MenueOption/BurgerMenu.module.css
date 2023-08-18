@@ -1,0 +1,10 @@
+.BurgerMenuStyle{
+ float: left;
+ overflow: hidden ;
+}
+.BurgerMenuImage{
+  margin-left:2rem;
+}
+.StatusSpecifier {
+  width: 100%;
+}
