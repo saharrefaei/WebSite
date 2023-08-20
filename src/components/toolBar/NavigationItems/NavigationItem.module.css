@@ -1,12 +1,29 @@
+.Items {
+
+}
 .Items ul {
+    display: flex;
+align-items: center;
     width: 100%;
-    display: flex; 
     list-style-type: none;
     flex-direction: row-reverse;
     font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
 }
-.Items ul li{
-padding-right: 5%;
+.Items ul li {
+    margin-right: 5%;
+    
+    }
+    .Items ul li a{
+        font-family: TTNormsProNormal;
+        font-size: 14px;
+        margin-left: 5%;
+        color: var(--black);
+        white-space: nowrap;
+        
+        }
+.Items ul li div{
+display: flex;
+align-items: center;
 }
 @media only screen and (min-width: 303px)  and (max-width: 500px){
     .Items ul {

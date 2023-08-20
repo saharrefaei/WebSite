@@ -43,9 +43,27 @@ align-items: center;
     .filter{
         padding-left: 10px;
         font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
-        font-size: 1px;
-
+           
+    }
+    .filter p{
+        padding-left: 10px;
+        font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+font-size: 12px;     
         
+    }
+    .history{
+        padding-left: 26%;
+    }
+    .history p{
+        padding-left: 10px;
+        font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+        font-size: 12px;     
+        
+    }
+    .history img{
+      width: 13px;
+      height: 13px;
+           
     }
 .serviceContent{
 display: grid;

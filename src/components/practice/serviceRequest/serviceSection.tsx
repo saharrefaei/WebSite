@@ -5,6 +5,7 @@ import Button from 'components/toolBar/button/Button'
 import allServices from './servicesInfo/serviceInfo.js'
 import pendingImg from '../../../assets/images/pending.svg'
 import filterImg from '../../../assets/images/Icon.svg'
+import historyIcon from '../../../assets/images/history.png'
 export default function serviceSection() {
   const [allServicesInfo,setallServicesInfo] = useState(allServices)
   console.log(allServicesInfo);
@@ -37,7 +38,7 @@ export default function serviceSection() {
 
              </div>
         </div>
-        <div className={serviceSectionStyle.filter}> <p style={{display:'flex' , alignItems : 'center' ,color:'gray'}}>see history <img style={{marginLeft:'2px'}} src={filterImg}/></p>  </div>
+        <div className={serviceSectionStyle.history}> <p style={{display:'flex' , alignItems : 'center' ,color:'gray'}}>see history <img style={{marginLeft:'2px'}} src={historyIcon}/></p>  </div>
 
       </div>
          <div className={serviceSectionStyle.mainstl}>

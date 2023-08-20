@@ -1,10 +1,21 @@
-.LogoUser {
+/* .LogoUser {
     height: 40px;
     width: 40px;
     background-color: var(--orange);
     border-radius: 50%;
     display: flex;
     align-items: center;
+} */
+.Grid{
+   display: flex;
+align-items: center; 
+}
+.Grid a{
+    font-family: TTNormsProNormal;
+    font-size: 14px;
+    margin-left: 5%;
+    color: var(--black);
+    white-space: nowrap;
 }
 .LogoUser img {
     width: 14px;
