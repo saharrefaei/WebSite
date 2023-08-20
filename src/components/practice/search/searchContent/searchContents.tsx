@@ -7,19 +7,26 @@ import balance from '../../../../assets/images/pending.svg'
 import SpecificSearchBar from '../searchBarRegion/specificSearchBar'
 import SearchResultsRegion from '../searchResults/searchResultsRegion'
 import regionInfo from '../../serviceRequest/servicesInfo/regionInfo'
+import Pagination from 'react-bootstrap/Pagination'
+import PageItem from 'react-bootstrap/PageItem'
+
 export default function searchContents() {
   const [allServicesInfo,setallServicesInfo] = useState(regionInfo)
   const { userSearch, setuserSearch } = useGlobalContext();
   const [showCards,setshowCards] = useState({})
+const [currentPage,setcurrentPage]=useState(1)
+const [pagination,setpagination]=useState([])
+let pageSize = 4 ;
+let pagesNumber ;
+  const keyword = userSearch;
+const filtered = regionInfo.filter(entry => Object.values(entry).some(val => typeof val === "string" && val.includes(keyword)));
 
-  
   useEffect(()=>{
     setshowCards(filtered) 
-    console.log(setshowCards,"setshowCards");
-    
+    const pageCount =Math.ceil(filtered.length/pageSize)
+pagesNumber =Array.from(Array(pageCount).keys())
   },[])  
-const keyword = userSearch;
-const filtered = regionInfo.filter(entry => Object.values(entry).some(val => typeof val === "string" && val.includes(keyword)));
+
 
   return (
         <div className={searchContentStyle.container}>
@@ -39,7 +46,24 @@ const filtered = regionInfo.filter(entry => Object.values(entry).some(val => typ
     }
 
   </div>
-  
+  <Pagination>
+      <Pagination.First />
+      <Pagination.Prev />
+      <Pagination.Item>{1}</Pagination.Item>
+      <Pagination.Ellipsis />
+
+      <Pagination.Item>{10}</Pagination.Item>
+      <Pagination.Item>{11}</Pagination.Item>
+      <Pagination.Item active>{12}</Pagination.Item>
+      <Pagination.Item>{13}</Pagination.Item>
+      <Pagination.Item disabled>{14}</Pagination.Item>
+
+      <Pagination.Ellipsis />
+      <Pagination.Item>{20}</Pagination.Item>
+      <Pagination.Next />
+      <Pagination.Last />
+    </Pagination>
     </div>
   )
 }
+
