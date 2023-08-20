@@ -10,6 +10,8 @@ function App() {
   const [someState, setSomeState] = useState("some state");
   const [isLoggedin, setIsLoggedin] = useState(false);
   const [MenusOpen , setMenuOpen]=useState(false)
+  const [userSearch,setuserSearch]=useState([])
+
   function logout (){
     localStorage.removeItem('token-info');
     setIsLoggedin(!isLoggedin);
@@ -21,7 +23,7 @@ function App() {
     setMenuOpen(false);    
   }, [size]);
   return (
-     <AppContext.Provider value={{ setSomeState, someState,isLoggedin,setIsLoggedin,logout,toggelBurgerMenu,MenusOpen,setMenuOpen }}>
+     <AppContext.Provider value={{ setSomeState, someState,isLoggedin,setIsLoggedin,logout,toggelBurgerMenu,MenusOpen,setMenuOpen,userSearch,setuserSearch }}>
      <ToolBar  />
      {/* <GridTemplateNavbar/> */}
      <AppMaterial />

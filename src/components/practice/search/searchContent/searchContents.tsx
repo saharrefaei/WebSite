@@ -1,13 +1,25 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import searchContentStyle from './searchcontents.module.css'
 import Region from '../../../../assets/images/lable.png'
 import substations from '../../../../assets/images/icon.svg'
+import { useGlobalContext } from '../../../../App';
 import balance from '../../../../assets/images/pending.svg'
 import SpecificSearchBar from '../searchBarRegion/specificSearchBar'
 import SearchResultsRegion from '../searchResults/searchResultsRegion'
-import ServicesInfos from '../../serviceRequest/servicesInfo/serviceInfo'
+import regionInfo from '../../serviceRequest/servicesInfo/regionInfo'
 export default function searchContents() {
-  const [allServicesInfo,setallServicesInfo] = useState(ServicesInfos)
+  const [allServicesInfo,setallServicesInfo] = useState(regionInfo)
+  const { userSearch, setuserSearch } = useGlobalContext();
+  const [showCards,setshowCards] = useState({})
+
+  
+  useEffect(()=>{
+    setshowCards(filtered) 
+    console.log(setshowCards,"setshowCards");
+    
+  },[])  
+const keyword = userSearch;
+const filtered = regionInfo.filter(entry => Object.values(entry).some(val => typeof val === "string" && val.includes(keyword)));
 
   return (
         <div className={searchContentStyle.container}>
@@ -19,7 +31,9 @@ export default function searchContents() {
   </div>
   <div className={searchContentStyle.result}>
     {
-      allServicesInfo.map(ServicesInfo=>(
+      
+      filtered.map(ServicesInfo=>(
+        
         <SearchResultsRegion {...ServicesInfo}/>
         ))
     }

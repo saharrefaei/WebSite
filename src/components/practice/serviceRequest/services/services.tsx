@@ -10,7 +10,6 @@ import fashIcon from '../../../../assets/images/flash.png'
 import Button from 'components/toolBar/button/Button';
 
 export default function services({title , zone , status , detected , img ,detectedTime, OtherBalanceAffected, Region}: any) {
-    console.log(title);
 
     return (
         <div className={servicesStyle.mainCountainer}>

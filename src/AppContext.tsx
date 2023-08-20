@@ -10,6 +10,8 @@ interface AppContextInterface {
      toggelBurgerMenu:any,
      MenusOpen :boolean,
      setMenuOpen:any,
+     userSearch:any,
+     setuserSearch:any
 }
 const AppContext = React.createContext < AppContextInterface > ({
      someState: "some string",
@@ -20,5 +22,9 @@ const AppContext = React.createContext < AppContextInterface > ({
      toggelBurgerMenu:{},
      MenusOpen:false,
      setMenuOpen:null,
+     userSearch:null,
+     setuserSearch:null
+
+
 });
 export default AppContext;
