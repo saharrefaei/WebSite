@@ -10,10 +10,22 @@ margin-right: 4%;
 .democustomizedbutton Button{
   background-color: white;
   color: black;
-  border: 1px solid gray;
+  border: 1px solid rgb(231, 227, 227);
   margin: 0px;
   width: 16rem;
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+
 }
+.democustomizedbutton p{
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-size: 13px;
+}
+.democustomizedbutton Button ui{
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+}
+
 .democustomizedbutton Button:hover{
   background-color: white;
   color: black;

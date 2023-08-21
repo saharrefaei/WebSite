@@ -3,6 +3,7 @@
       left: 0;
       right: 0;
       top: 0px;
+      padding-right: 3%;
       bottom: 0px;
       display: grid;
       grid-auto-flow: column;
