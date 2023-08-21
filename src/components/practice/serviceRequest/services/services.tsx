@@ -35,8 +35,8 @@ export default function services({title , zone , status , detected , img ,detect
                     </Button>
                 </div>
 
-                <div className={servicesStyle.lastfirstInformation} style={{ marginTop: OtherBalanceAffected ? 'none' : '7px'  }}>
-                    <Button buttonType="ZoneS">
+                <div className={servicesStyle.lastfirstInformation} style={{ marginTop: OtherBalanceAffected ? '0px' : '8px'    }}>
+                    <Button buttonType={`Zone${zone}`}>
                        Zone {zone}
                     </Button>
                     <div className={servicesStyle.regionInformation}><img src={lable}/>

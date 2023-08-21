@@ -8,11 +8,12 @@
 .mainstl{
 display: grid;
 grid-auto-flow: column;
-
-grid-template-rows: repeat(2,160px);
+height: 100%;
+grid-template-columns: repeat(4,25%);
 grid-gap: 7px;
 border-radius: 8px;
 }
+
 .zons{
     font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
 
@@ -29,7 +30,11 @@ font-size: 20px;
 font-family: TTNormsProBold, Helvetica, Arial, sans-serif;
 
     }
-
+.lastfirstInformation{
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
 .serviceTools{
 padding-left: 2%;
 display: flex;

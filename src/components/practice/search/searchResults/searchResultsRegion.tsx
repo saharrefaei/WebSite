@@ -26,7 +26,7 @@ export default function searchResultsRegion({title , zone , status , detected , 
                 </div>
                 </div>
                 <div className={searcResultStyle.lastfirstInformation} >
-                    <Button buttonType="ZoneS">
+                    <Button buttonType={`Zone${zone}`}>
                        Zone {zone}
                     </Button>
                     <div className={searcResultStyle.regionInformation} ><img src={RegionIcon}/>

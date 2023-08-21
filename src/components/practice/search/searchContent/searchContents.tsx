@@ -7,25 +7,56 @@ import balance from '../../../../assets/images/pending.svg'
 import SpecificSearchBar from '../searchBarRegion/specificSearchBar'
 import SearchResultsRegion from '../searchResults/searchResultsRegion'
 import regionInfo from '../../serviceRequest/servicesInfo/regionInfo'
-import Pagination from 'react-bootstrap/Pagination'
-import PageItem from 'react-bootstrap/PageItem'
+import Pagination from '../pagination/pagination';
+
 
 export default function searchContents() {
   const [allServicesInfo,setallServicesInfo] = useState(regionInfo)
   const { userSearch, setuserSearch } = useGlobalContext();
-  const [showCards,setshowCards] = useState({})
-const [currentPage,setcurrentPage]=useState(1)
-const [pagination,setpagination]=useState([])
-let pageSize = 4 ;
-let pagesNumber ;
+//   const [showCards,setshowCards] = useState([])
+// const [currentPage,setcurrentPage]=useState(1)
+// const [pagination,setpagination]=useState({})
+// const [pagesNumber,setpagesNumber]=useState([0])
+// const [endIndex,setendIndex]=useState({})
+// const [startIndex,setstartIndex]=useState({})
+// const [allShownCards,setallShownCards]=useState({})
+
+
+// let pageSize =10 ;
+// let pagesNumbers ;
   const keyword = userSearch;
+
 const filtered = regionInfo.filter(entry => Object.values(entry).some(val => typeof val === "string" && val.includes(keyword)));
 
-  useEffect(()=>{
-    setshowCards(filtered) 
-    const pageCount =Math.ceil(filtered.length/pageSize)
-pagesNumber =Array.from(Array(pageCount).keys())
-  },[])  
+  // useEffect(()=>{
+  //   setshowCards(filtered) 
+  //   const pageCount =Math.ceil(filtered.length / pageSize)
+  //   pagesNumbers =Array.from(Array(pageCount).keys())
+  //   let endIndexValue = pageSize * currentPage 
+  //   setendIndex(endIndexValue)
+  //   let startIndexValue =  endIndexValue - pageSize
+  //   setstartIndex(startIndexValue)
+  //   let allShownCardsValue = showCards.slice(startIndexValue,endIndexValue)
+  //   setallShownCards(allShownCardsValue)
+  //   setpagesNumber(pagesNumbers)
+  //   setpagination(allShownCardsValue)
+  // },[])  
+
+  // const changePaginate=(newpage:any)=>{
+  //   const pageCount =Math.ceil(filtered.length / pageSize)
+  //   pagesNumbers =Array.from(Array(pageCount).keys())
+  //   setcurrentPage(newpage)
+  //   let endIndexValue = pageSize * currentPage 
+  //   setendIndex(endIndexValue)
+  //   let startIndexValue =  endIndexValue - pageSize
+  //   setstartIndex(startIndexValue)
+  //   let allShownCardsValue = showCards.slice(startIndexValue,endIndexValue)
+  //   setallShownCards(allShownCardsValue)
+  //   setpagesNumber(pagesNumbers)
+  //   setpagination(allShownCardsValue)
+  //   console.log('fahmidi be mnamm bgu');
+    
+  // }
 
 
   return (
@@ -44,25 +75,9 @@ pagesNumber =Array.from(Array(pageCount).keys())
         <SearchResultsRegion {...ServicesInfo}/>
         ))
     }
-
   </div>
-  <Pagination>
-      <Pagination.First />
-      <Pagination.Prev />
-      <Pagination.Item>{1}</Pagination.Item>
-      <Pagination.Ellipsis />
 
-      <Pagination.Item>{10}</Pagination.Item>
-      <Pagination.Item>{11}</Pagination.Item>
-      <Pagination.Item active>{12}</Pagination.Item>
-      <Pagination.Item>{13}</Pagination.Item>
-      <Pagination.Item disabled>{14}</Pagination.Item>
-
-      <Pagination.Ellipsis />
-      <Pagination.Item>{20}</Pagination.Item>
-      <Pagination.Next />
-      <Pagination.Last />
-    </Pagination>
+    <Pagination/>
     </div>
   )
 }

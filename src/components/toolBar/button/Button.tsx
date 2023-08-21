@@ -19,14 +19,17 @@ break;
 case 'Zone1':
 Classes.push('Zone1')
 break;
-case 'ZoneN':
-Classes.push('ZoneN')
+case 'ZoneM':
+Classes.push('ZoneM')
 break;
 case 'ZoneL':
 Classes.push('ZoneL')
 break;
 case 'region':
 Classes.push('region')
+break;
+case 'ZoneN':
+Classes.push('ZoneN')
 break;
 default:
 break;

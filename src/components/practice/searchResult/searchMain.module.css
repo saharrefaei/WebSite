@@ -1,7 +1,6 @@
 .main{
     margin-left: 4%;
     margin-right: 4%;
-
     padding-top:2%;
     display: grid;
     grid-auto-flow: column;

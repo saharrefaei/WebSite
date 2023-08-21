@@ -50,7 +50,7 @@ font-size: 8px;
      background-color:#E4F0F2 ;
    color:#258998 ;
     margin: 0 5px;
-    width: 47x;
+    width: 50x;
     height: 20px;
     font-size: 8px;
 
@@ -58,11 +58,23 @@ font-size: 8px;
 .Zone1:hover{
     border:1px solid #258998;
 }
+.ZoneM{
+    background-color:#E2F0E2 ;
+    color:#138719 ;
+    margin: 0 5px;
+    width: 50x;
+    height: 20px;
+    font-size: 8px;
+
+}
+.ZoneM:hover{
+    border:1px solid #138719;
+}
 .ZoneN{
     background-color:#E2F0E2 ;
     color:#138719 ;
     margin: 0 5px;
-    width: 47x;
+    width: 50x;
     height: 20px;
     font-size: 8px;
 
@@ -74,7 +86,7 @@ font-size: 8px;
     background-color:#F2DFE6 ;
     color:#990035 ;
     margin: 0 5px;
-    width: 47x;
+    width: 50x;
 height: 20px;
     font-size: 8px;
 

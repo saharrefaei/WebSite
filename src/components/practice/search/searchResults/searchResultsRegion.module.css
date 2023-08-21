@@ -30,6 +30,7 @@
 .lastfirstInformation {
     display: flex;
     align-items: center;
+    padding-bottom: 3%;
 }
 
 .ChangeInformation {
@@ -80,11 +81,11 @@ margin-left: 2px;
 
 .balanceInformation {
     display: flex;
-    align-items: center; margin-left: 5px;  
+    align-items: center;
+     margin-left: 5px;  
 }
 
 .balanceInformation p {
     font-size: x-small;
-    padding-bottom: 2px;
     color: gray;
 }
