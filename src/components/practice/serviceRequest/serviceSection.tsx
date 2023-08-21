@@ -62,7 +62,7 @@ console.log(userSelect,'userSelect');
                   <div className={serviceSectionStyle.padding}>
                     <p
                       style={{ display:'flex' , alignItems : 'center',flexDirection:'row-reverse' }}>
-                      pending <img style={{ marginLeft:'7px' }} src={pendingImg} /> </p>
+                      pending <img style={{ marginLeft:'7px', }} src={pendingImg} /> </p>
                   </div>
 
                 </div>

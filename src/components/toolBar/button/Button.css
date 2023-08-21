@@ -10,7 +10,7 @@
 .ablebtn{
     background-color: var(--orange);
     color:var(--white);
-    width:75%;
+    width:69%;
     display: flex;
     align-items: center;
     padding-left: 4px;
@@ -89,7 +89,7 @@ font-size: 8px;
     width: 50x;
 height: 20px;
     font-size: 8px;
-
+    border: none;
 }
 .ZoneL:hover{
     border:1px solid #990035;

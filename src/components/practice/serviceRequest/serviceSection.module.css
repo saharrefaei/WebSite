@@ -76,3 +76,17 @@ grid-template-columns: 25fr  3fr;
 align-items: center;
 width: 100%;
 }
+.rotate {
+    margin-left: 7px;
+    animation: rotate-keyframes 50s;
+   }
+   
+   @keyframes rotate-keyframes {
+    from {
+     transform: rotate(0deg);
+    }
+   
+    to {
+     transform: rotate(180deg);
+    }
+   }

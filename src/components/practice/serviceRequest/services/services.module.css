@@ -35,8 +35,22 @@
     border-radius: 14px;
     display: flex;
     align-items: center;
-}
 
+}
+.statusInformation img {
+    margin-right: 2px;
+    animation: rotate-keyframes 1s infinite;
+
+}
+@keyframes rotate-keyframes {
+    from {
+     transform: rotate(0deg);
+    }
+   
+    to {
+     transform: rotate(180deg);
+    }
+   }
 .lastfirstInformation {
     display: flex;
     align-items: center;
@@ -50,12 +64,13 @@
     background-color: #F9E3E3;
     color: #CC1D1D;
     width: fit-content;
-    width: 70%;
-    height: 19px;
+    width: 63%;
+    height: 20px;
 }
 .ChangeInformation  img{
-padding-right: 10px;
-padding-left: 5px;
+    padding-left: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
 }
 .BtnInformation {
     padding-top: 5%;
@@ -104,4 +119,5 @@ padding-left: 5px;
     font-size: x-small;
     padding-bottom: 2px;
     color: gray;
+    margin-left: 2px;
 }
