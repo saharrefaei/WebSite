@@ -33,7 +33,7 @@ console.log(userSelect,'userSelect');
           <div>
             <p style={{ marginTop:'-4%' }}>Select a zone</p>
           </div>
-          <div className='zons'>
+          <div className='zons' style={{ marginBottom:'2%' }}>
 
             <Button buttonType="ZoneS" Clicked={ButtonClickedZoneS} className={serviceSectionStyle.ZoneS}> Zone S
             </Button>

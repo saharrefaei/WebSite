@@ -7,10 +7,10 @@
 }
 .decription{
   font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
-font-size: 13px;
+font-size: 14px;
 }
 .toggle {
-  margin-top: -20px;
+  margin-top: -14px;
   display: flex;
   align-items: center;
 }

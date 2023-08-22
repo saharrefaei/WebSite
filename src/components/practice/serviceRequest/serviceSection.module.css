@@ -16,7 +16,7 @@ border-radius: 8px;
 
 .zons{
     font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
-
+    margin-bottom: 2%;
     display: flex;
 }
 .service{

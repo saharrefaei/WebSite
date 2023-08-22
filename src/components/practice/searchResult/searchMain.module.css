@@ -5,6 +5,6 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns:2fr 2fr;
-    border-bottom: 2px solid rgb(219, 214, 214);
+    border-bottom: 1px solid rgb(219, 214, 214);
 align-items: center;
 }
