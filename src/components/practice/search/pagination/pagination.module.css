@@ -1,0 +1,19 @@
+.Countainer {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.Countainer svg {
+    margin-left: 1500%;
+}
+
+.Countainer .Stack {
+    display: flex;
+    align-items: center;
+}
+
+.Countainer .Stack p {
+    margin-left: 7%;
+    font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,1765 @@
+/*Error-400 page media queries*/
+@media only screen and (min-width: 1801px) and (max-width: 2000px){
+  .page400 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 469px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 800px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-size: 600%;
+      font-weight: lighter;
+    }
+    .page400error 
+    {
+      color: black;
+      margin-left: 1300px;
+      margin-top: -579px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+    }
+  
+    .page400h2
+    {
+      color: black;
+      margin-left: 1150px;
+      margin-top: -10px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;
+    }
+  
+    .button400 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 54%;
+      left: 75.8%;
+      width: 160px;
+      height: 35px;
+      padding: 4px;
+      font-size: 15px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1800px){
+  .page400 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 419px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+    }
+    .page400error 
+    {
+      color: black;
+      margin-left: 980px;
+      margin-top: -493px;
+      font-family: "TT Norms Pro", Times, serif ;
+    }
+  
+    .page400h2
+    {
+      color: black;
+      margin-left: 900px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+    }
+  
+    .button400 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 90%;
+      left: 76%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 15px;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1371px) and (max-width: 1500px){
+    .page400 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 419px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page400error 
+      {
+        color: black;
+        margin-left: 910px;
+        margin-top: -490px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page400h2
+      {
+        color: black;
+        margin-left: 860px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+      }
+    
+      .button400 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 65%;
+        left: 74.5%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1368px) and (max-width: 1370px){
+  .page400 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 430px;
+      padding-top: 370px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page400error 
+    {
+      color: black;
+      margin-left: 840px;
+      margin-top: -503px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+
+    }
+  
+    .page400h2
+    {
+      color: black;
+      margin-left: 800px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;
+    }
+  
+    .button400 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 59%;
+      left: 73.5%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1351px) and (max-width: 1367px){
+    .page400 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 502px;
+        padding-top: 410px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+    }
+      .page400error
+      {
+        color: black;
+        margin-left: 830px;
+        margin-top: -572px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page400h2
+      {
+        color: black;
+        margin-left: 740px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+      }
+    
+      .button400 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 57%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .page400 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 338px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page400error
+      {
+        color: black;
+        margin-left: 760px;
+        margin-top: -410px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+
+      }
+    
+      .page400h2
+      {
+        color: black;
+        margin-left: 700px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+      }
+    
+      .button400 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 64%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .page400 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 358px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 470px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page400error
+    {
+      color: black;
+      margin-left: 770px;
+      margin-top: -425px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: x-large;
+
+    }
+  
+    .page400h2
+    {
+      color: black;
+      margin-left: 720px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: medium;
+      font-weight: lighter;
+    }
+  
+    .button400 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 61%;
+      left: 74%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .page400 
+  {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+ }
+ .page400error
+ {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page400h2
+ {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+  }
+
+  .button400 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .page400 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page400error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page400h2
+   {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+  }
+
+  .button400 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .page400 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page400error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page400h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  .button400 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 50px) and (max-width: 319px) {
+  .page400 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+}
+
+.page400error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page400h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  .button400 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 59%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*Error-404 page media queries*/
+@media only screen and (min-width: 1801px) and (max-width: 2000px){
+  .page404 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 469px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 800px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-size: 600%;
+      font-weight: lighter;
+    }
+    .page404error 
+    {
+      color: black;
+      margin-left: 1300px;
+      margin-top: -579px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+    }
+  
+    .page404h2
+    {
+      color: black;
+      margin-left: 1150px;
+      margin-top: -10px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;      
+      text-align: center;
+    }
+  
+    .button404 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 54%;
+      left: 75.8%;
+      width: 160px;
+      height: 35px;
+      padding: 4px;
+      font-size: 15px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1800px){
+  .page404 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 419px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+    }
+    .page404error 
+    {
+      color: black;
+      margin-left: 980px;
+      margin-top: -493px;
+      font-family: "TT Norms Pro", Times, serif ;
+    }
+  
+    .page404h2
+   {
+      color: black;
+      margin-left: 870px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+      text-align: center;
+    }
+  
+    .button404 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 90%;
+      left: 76%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 15px;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1371px) and (max-width: 1500px){
+    .page404 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 419px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page404error 
+      {
+        color: black;
+        margin-left: 910px;
+        margin-top: -490px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page404h2
+      {
+        color: black;
+        margin-left: 860px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+      }
+    
+      .button404 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 65%;
+        left: 74.5%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1368px) and (max-width: 1370px){
+  .page404 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 430px;
+      padding-top: 370px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page404error 
+    {
+      color: black;
+      margin-left: 840px;
+      margin-top: -503px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+
+    }
+  
+    .page404h2
+    {
+      color: black;
+      margin-left: 800px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button404 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 59%;
+      left: 73.5%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1351px) and (max-width: 1367px){
+    .page404 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 502px;
+        padding-top: 410px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+    }
+      .page404error
+      {
+        color: black;
+        margin-left: 830px;
+        margin-top: -572px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page404h2
+      {
+        color: black;
+        margin-left: 740px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+
+      }
+    
+      .button404 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 57%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .page404 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 338px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page404error
+      {
+        color: black;
+        margin-left: 760px;
+        margin-top: -410px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+
+      }
+    
+      .page404h2
+      {
+        color: black;
+        margin-left: 700px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+
+      }
+    
+      .button404 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 64%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .page404 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 358px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 470px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page404error
+   {
+      color: black;
+      margin-left: 770px;
+      margin-top: -425px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: x-large;
+
+    }
+  
+    .page404h2
+     {
+      color: black;
+      margin-left: 720px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: medium;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button404 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 61%;
+      left: 74%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .page404 
+  {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+ }
+ .page404error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page404h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button404 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .page404 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page404error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page404h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button404 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .page404 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page404error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page404h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button404 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 50px) and (max-width: 319px) {
+  .page404 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+}
+
+.page404error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page404h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button404 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 59%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*Error-500 page media queries*/
+@media only screen and (min-width: 1366px) {
+  .page500 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 469px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 800px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-size: 600%;
+      font-weight: lighter;
+    }
+    .page500error 
+    {
+      color: black;
+      margin-left: 1300px;
+      margin-top: -579px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+    }
+  
+    .page500h2
+    {
+      color: black;
+      margin-left: 1150px;
+      margin-top: -10px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button500 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 54%;
+      left: 75.5%;
+      width: 160px;
+      height: 35px;
+      padding: 4px;
+      font-size: 15px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1800px){
+  .page500 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 419px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+    }
+    .page500error 
+    {
+      color: black;
+      margin-left: 980px;
+      margin-top: -493px;
+      font-family: "TT Norms Pro", Times, serif ;
+    }
+  
+    .page500h2
+    {
+      color: black;
+      margin-left: 870px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif ;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button500 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 90%;
+      left: 76%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 15px;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1371px) and (max-width: 1500px){
+    .page500 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 419px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page500error 
+      {
+        color: black;
+        margin-left: 910px;
+        margin-top: -490px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page500h2
+      {
+        color: black;
+        margin-left: 860px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+
+      }
+    
+      .button500 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 65%;
+        left: 74.5%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1368px) and (max-width: 1370px){
+  .page500 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 430px;
+      padding-top: 370px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page500error 
+    {
+      color: black;
+      margin-left: 840px;
+      margin-top: -503px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: xx-large;
+
+    }
+  
+    .page500h2
+    {
+      color: black;
+      margin-left: 800px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: large;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button500 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 65%;
+      left: 73.5%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 1351px) and (max-width: 1367px){
+    .page500 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 502px;
+        padding-top: 410px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+    }
+      .page500error
+      {
+        color: black;
+        margin-left: 830px;
+        margin-top: -572px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+      }
+    
+      .page500h2
+      {
+        color: black;
+        margin-left: 740px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+
+      }
+    
+      .button500 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 62%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1350px){
+    .page500 {
+        color: white;
+        background-color: #E75420;
+        padding-bottom: 338px;
+        padding-top: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: center;
+        font-family: "TT Norms Pro", Times, serif;
+        font-weight: lighter;
+      }
+      .page500error
+      {
+        color: black;
+        margin-left: 760px;
+        margin-top: -410px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: xx-large;
+
+      }
+    
+      .page500h2
+      {
+        color: black;
+        margin-left: 700px;
+        margin-top: 0px;
+        font-family: "TT Norms Pro", Times, serif;
+        font-size: large;
+        font-weight: lighter;
+        text-align: center;
+
+      }
+    
+      .button500 {
+        color: white;
+        background-color: #E75420;
+        position: absolute;
+        top: 64%;
+        left: 71%;
+        width: 160px;
+        height: 35px;
+        padding: 8px;
+        font-size: 14px;
+        font-family: "TT Norms Pro", Times, serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .page500 {
+      color: white;
+      background-color: #E75420;
+      padding-bottom: 358px;
+      padding-top: 350px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 470px;
+      display: flex;
+      justify-content: center;
+      font-family: "TT Norms Pro", Times, serif;
+      font-weight: lighter;
+    }
+    .page500error
+    {
+      color: black;
+      margin-left: 770px;
+      margin-top: -425px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: x-large;
+
+    }
+  
+    .page500h2
+    {
+      color: black;
+      margin-left: 720px;
+      margin-top: 0px;
+      font-family: "TT Norms Pro", Times, serif;
+      font-size: medium;
+      font-weight: lighter;
+      text-align: center;
+
+    }
+  
+    .button500 {
+      color: white;
+      background-color: #E75420;
+      position: absolute;
+      top: 61%;
+      left: 74%;
+      width: 160px;
+      height: 35px;
+      padding: 8px;
+      font-size: 14px;
+      font-family: "TT Norms Pro", Times, serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .page500 
+  {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+ }
+ .page500error
+ {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page500h2
+ {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button500 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .page500 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page500error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: x-large;
+  }
+
+  .page500h2
+   {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button500 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .page500 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+  }
+  .page500error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page500h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button500 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 50px) and (max-width: 319px) {
+  .page500 {
+    color: white;
+    background-color: #E75420;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-weight: lighter;
+}
+
+.page500error
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: large;
+  }
+
+  .page500h2
+  {
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "TT Norms Pro", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+
+  }
+
+  .button500 {
+    color: white;
+    background-color: #E75420;
+    position: absolute;
+    top: 90%;
+    left: 59%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "TT Norms Pro", Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}

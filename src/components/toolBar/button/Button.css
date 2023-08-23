@@ -1,0 +1,123 @@
+.disablebtn {
+    background-color: var(--pale-pink);
+    cursor: no-drop;
+    color: var(--pale-orange);
+}
+
+.disablebtn a {
+    pointer-events: none;
+    color: var(--pale-orange);
+}
+
+.ablebtn {
+    background-color: var(--orange);
+    color: var(--white);
+    width: 69%;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 0px;
+    font-size: 10px;
+    white-space: nowrap;
+
+}
+
+.ablebtn a {
+    width: 100%;
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    color: var(--white);
+}
+
+.Registerbtn {
+    background-color: var(--white);
+    border: 1px solid var(--pale-gray);
+    ;
+}
+
+.Registerbtn p {
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    color: var(--black);
+}
+
+.ZoneS {
+    color: #E75420;
+    background-color: #fceae3;
+    margin: 0 5px;
+    width: 50x;
+    height: 21px;
+    font-size: 8px;
+}
+
+.ZoneS:hover {
+    border: 1px solid #E75420;
+    box-shadow: .3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.Zone1 {
+    background-color: #E4F0F2;
+    color: #258998;
+    margin: 0 5px;
+    width: 50x;
+    height: 21px;
+    font-size: 8px;
+
+}
+
+.Zone1:hover {
+    border: 1px solid #258998;
+    box-shadow: .3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.ZoneM {
+    background-color: #E2F0E2;
+    color: #138719;
+    margin: 0 5px;
+    width: 50x;
+    height: 21px;
+    font-size: 8px;
+
+}
+
+.ZoneM:hover {
+    border: 1px solid #138719;
+    box-shadow: .3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.ZoneN {
+    background-color: #E2F0E2;
+    color: #138719;
+    margin: 0 5px;
+    width: 50x;
+    height: 21px;
+    font-size: 8px;
+
+}
+
+.ZoneN:hover {
+    border: 1px solid #138719;
+    box-shadow: .3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.ZoneL {
+    background-color: #F2DFE6;
+    color: #990035;
+    margin: 0 5px;
+    width: 50x;
+    height: 21px;
+    font-size: 8px;
+    border: none;
+}
+
+.ZoneL:hover {
+    border: 1px solid #990035;
+    box-shadow: .3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.region {
+    padding: 2px 4px;
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}

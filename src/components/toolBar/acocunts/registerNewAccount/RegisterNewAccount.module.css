@@ -1,0 +1,33 @@
+.RegisterButtons Button {
+    margin-top: 5%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 2fr;
+    justify-items: start;
+}
+.RegisterButtons{
+    padding-left: 20px;
+}
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+    .RegisterButtons{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 760px) {
+    .RegisterButtons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 4%
+    }
+}
+@media only screen and (min-width: 190px) and (max-width: 360px) {
+    .RegisterButtons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 6%;
+    }
+}

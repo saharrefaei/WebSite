@@ -1,0 +1,11 @@
+.logOut {
+  padding-right: 20px;
+}
+.logOut img {
+  float: right;
+}
+@media only screen and (max-width: 700px) {
+  .logOut {
+    padding-right: 35px;
+  }
+}

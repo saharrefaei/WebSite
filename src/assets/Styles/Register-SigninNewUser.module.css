@@ -1,0 +1,122 @@
+.fullscreen {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+p {
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+}
+.leftcontainer {
+    background-color: var(--pale-pink);
+    height: -webkit-fill-available;
+}
+.rightcontainer {
+    display: grid;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid var(--alice-blue);
+    border-radius: 2%;
+    margin: 10% 20%;
+}
+.RegisterNewAccountInput{
+    display: grid;
+    justify-content: space-around;
+}
+.rightcontainer .RegisterContinueButton {
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.belowtext {
+    width: 29rem;
+    color: var(--gray);
+    padding-top: 20%;
+}
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    .rightcontainer {
+        display: grid;
+        padding-bottom: 5%;
+        padding-top: 10%;
+        align-content: center;
+        justify-content: center;
+        border: none;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 760px) {
+    .rightcontainer {
+        display: grid;
+        padding-bottom: 5%;
+        padding-top: 10%;
+        align-content: center;
+        justify-content: space-around;
+        border: none;
+    }
+    .fullscreen {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+    }
+    .leftcontainer {
+        display: none;
+    }
+    .RegisterNewAccountInput{
+        display: grid;
+        justify-content: center;
+       /* padding-left: 11px;  */
+    }
+    .RegisterContinueButton{
+        display: flex;
+        justify-content: center;
+        /* padding-left: 11px; */
+    }
+}
+@media only screen and (min-width: 190px) and (max-width: 360px) {
+    .rightcontainer {
+        display: grid;
+        padding-bottom: 5%;
+        padding-top: 10%;
+        align-content: center;
+        justify-content: center;
+        border: none;
+    }
+    .fullscreen {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+        justify-items: center;
+        justify-content: center;
+    }
+    .leftcontainer {
+        display: none;
+    }
+    .RegisterNewAccountInput{
+        display: grid;
+        justify-content: space-around;
+    }
+    .RegisterContinueButton {
+        display: grid;
+    }
+    .RegisterNewAccountInput input {
+        width: 24rem;
+        height: 17px;
+        border-radius: 5px;
+        padding: 21px;
+        border: 1px solid var(--pale-gray);
+        box-sizing: border-box;
+        margin: 9px 0px;
+    }
+    .Backarrow {
+        padding-left: 10%;
+      }
+    .belowtext {
+        width: 29rem;
+        color: var(--gray);
+        padding :20% 2rem 0px 2rem
+    }
+}

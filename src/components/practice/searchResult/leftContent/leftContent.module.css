@@ -1,0 +1,12 @@
+.Containter {
+    display: flex;
+    align-items: center;
+    font-family:  Helvetica, Arial, sans-serif;
+font-size: large;
+}
+.Containter img{
+    margin-right: 10px;
+    height: 35px;
+    width: 24px;
+    padding-bottom: 1%;
+}

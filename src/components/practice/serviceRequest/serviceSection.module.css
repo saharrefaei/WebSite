@@ -1,0 +1,92 @@
+.style{
+    margin: 4%;
+}
+.style p{
+    font-family: TTNormsProBold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.mainstl{
+display: grid;
+grid-auto-flow: column;
+height: 100%;
+grid-template-columns: repeat(4,25%);
+grid-gap: 7px;
+border-radius: 8px;
+}
+
+.zons{
+    font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+    margin-bottom: 2%;
+    display: flex;
+}
+.service{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    }
+    
+    .serviceTitle{
+font-size: 20px;
+font-family: TTNormsProBold, Helvetica, Arial, sans-serif;
+
+    }
+.lastfirstInformation{
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.serviceTools{
+padding-left: 2%;
+display: flex;
+align-items: center;
+    }
+
+    .VerticalLine{
+        border-left: 1px solid rgb(0, 0, 0);
+        height: 30px;
+    }
+    .filter{
+        padding-left: 10px;
+        font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+           
+    }
+    .filter p{
+        padding-left: 10px;
+        font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+font-size: 12px;     
+        
+    }
+    .history{
+        padding-left: 26%;
+    }
+    .history p{
+        padding-left: 10px;
+        font-family: TTNormsProNormal, Helvetica, Arial, sans-serif;
+        font-size: 12px;     
+        
+    }
+    .history img{
+      width: 13px;
+      height: 13px;
+           
+    }
+.serviceContent{
+display: grid;
+grid-template-columns: 25fr  3fr;
+align-items: center;
+width: 100%;
+}
+.rotate {
+    margin-left: 7px;
+    animation: rotate-keyframes 50s;
+   }
+   
+   @keyframes rotate-keyframes {
+    from {
+     transform: rotate(0deg);
+    }
+   
+    to {
+     transform: rotate(180deg);
+    }
+   }

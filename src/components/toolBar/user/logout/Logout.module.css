@@ -1,0 +1,71 @@
+.logOut {
+  padding-right: 20px;
+}
+.logOut img {
+  /* float: right; */
+}
+.democustomizedbutton{
+margin-right: 4%;
+}
+.democustomizedbutton Button{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(231, 227, 227);
+  margin: 0px;
+  width: 16rem;
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+
+}
+.democustomizedbutton p{
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-size: 13px;
+}
+.democustomizedbutton Button ui{
+  font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+}
+
+.democustomizedbutton Button:hover{
+  background-color: white;
+  color: black;
+}
+@media only screen and (min-width: 1000px)  and (max-width: 2700px){
+  .logOut{
+    padding-right: 40%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .logOut {
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 50px)  and (max-width: 500px){
+  .logOut {
+    width: 100vw;
+     height: 18vh;
+     background-color: var(--gray-middel); 
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .logOutContent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 4%;
+  }
+  .logOut img {
+  width: 8%;
+  height: 8%;
+  padding-left: 2%;
+  }
+  .logOut p {
+    font-family: TTNormsProMedium, Helvetica, Arial, sans-serif;
+   font-size: large;
+   color:var(--gray);
+    }
+}

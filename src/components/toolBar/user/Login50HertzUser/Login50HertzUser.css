@@ -1,0 +1,20 @@
+.SSOLogin{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 15%;
+        padding-right:9%;
+}
+Button img{
+        margin-right: 21px;
+        width: 20px;
+        height: 20px;
+}
+@media screen and (min-width:100px) and (max-width: 400px) {
+    .SSOLogin {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 25%;
+    }
+}
